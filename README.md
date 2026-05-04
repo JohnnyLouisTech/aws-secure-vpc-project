@@ -98,4 +98,4 @@ Implement centralized alerting
 
 Medium Article: https://medium.com/p/d0bad75df9f0?postPublishedType=initial
 
-LinkedIn Post: https://www.linkedin.com/posts/johnnylouis_aws-cloudengineering-cybersecurity-share-7456888790440255489-5pnq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAScb6gB1duzxBcU2AV7tzUXSdHGK0RxUlE
+LinkedIn Post: https://www.linkedin.com/feed/update/urn:li:activity:7456890516065136640/ 
