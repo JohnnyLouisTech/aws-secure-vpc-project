@@ -95,5 +95,5 @@ Integrate GuardDuty and Security Hub
 Implement centralized alerting
 
 📎 Related Content
-Medium Article: (Add your link here)
-LinkedIn Post: (Add your link here)
+Medium Article: https://medium.com/p/d0bad75df9f0?postPublishedType=initial
+LinkedIn Post: https://www.linkedin.com/posts/johnnylouis_aws-cloudengineering-cybersecurity-share-7456888790440255489-5pnq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAScb6gB1duzxBcU2AV7tzUXSdHGK0RxUlE
