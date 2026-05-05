@@ -13,7 +13,7 @@ Protect backend systems from direct internet exposure
 Enforce least privilege access
 Maintain visibility through logging and monitoring
 
-#🏗️ Architecture
+# 🏗️ Architecture
 Core Services Used
 Amazon VPC
 Amazon EC2
@@ -22,7 +22,7 @@ Amazon CloudWatch
 NAT Gateway
 Internet Gateway
 
-#🎯 Design Goals
+# 🎯 Design Goals
 Network Isolation
 Separate public-facing and internal resources
 Controlled Internet Access
@@ -32,7 +32,7 @@ Restrict inbound access and enforce least privilege
 Monitoring & Visibility
 Track activity and maintain logs for auditing
 
-🌐 Network Architecture
+# 🌐 Network Architecture
 VPC
 CIDR: 10.0.0.0/16
 Public Subnet
@@ -50,7 +50,7 @@ Private EC2 Instance
 Route:
 0.0.0.0/0 → NAT Gateway
 
-🔐 Security Design
+# 🔐 Security Design
 Access Control
 Bastion Host:
 SSH allowed from trusted IP only
@@ -61,22 +61,22 @@ EC2 instances use IAM roles
 No hardcoded credentials
 Least privilege enforced
 
-🔄 Traffic Flow
+# 🔄 Traffic Flow
 Inbound
 Internet → Internet Gateway → Bastion Host (Public Subnet)
 
-Outbound (Private Instance)
+# Outbound (Private Instance)
 Private EC2 → NAT Gateway → Internet Gateway → Internet
 
 ✔ Private resources can access the internet
 ❌ Private resources cannot be accessed from the internet
 
-📊 Monitoring & Logging
+# 📊 Monitoring & Logging
 AWS CloudTrail → API activity logging
 CloudWatch → Metrics and logs
 VPC Flow Logs → Network traffic visibility
 
-🚀 Deployment Steps (High-Level)
+# 🚀 Deployment Steps (High-Level)
 Create VPC and subnets
 Attach Internet Gateway
 Configure route tables
@@ -87,14 +87,14 @@ Configure security groups
 Attach IAM roles
 Enable logging (CloudTrail, Flow Logs)
 
-🔧 Future Improvements
+# 🔧 Future Improvements
 Replace SSH with AWS Systems Manager Session Manager
 Deploy across multiple Availability Zones
 Automate with Terraform or CloudFormation
 Integrate GuardDuty and Security Hub
 Implement centralized alerting
 
-📎 Related Content
+# 📎 Related Content
 
 Medium Article: https://medium.com/p/d0bad75df9f0?postPublishedType=initial
 
