@@ -3,7 +3,7 @@
 
 <img width="1536" height="1024" alt="architecture-diagram png" src="https://github.com/user-attachments/assets/8283aeb3-ccf1-4a5f-8656-0a8b0420f88e" />
 
-📖 Overview
+# 📖 Overview
 
 This project demonstrates the design and implementation of a secure AWS Virtual Private Cloud (VPC) architecture that isolates internal resources while allowing controlled outbound access and centralized monitoring.
 
