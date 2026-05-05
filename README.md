@@ -13,7 +13,7 @@ Protect backend systems from direct internet exposure
 Enforce least privilege access
 Maintain visibility through logging and monitoring
 
-🏗️ Architecture
+#🏗️ Architecture
 Core Services Used
 Amazon VPC
 Amazon EC2
@@ -22,7 +22,7 @@ Amazon CloudWatch
 NAT Gateway
 Internet Gateway
 
-🎯 Design Goals
+#🎯 Design Goals
 Network Isolation
 Separate public-facing and internal resources
 Controlled Internet Access
